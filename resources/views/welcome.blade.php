@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="container-fluid intro" style="position:relative;background-image: url({{ asset('img/raum_manufaktur_home_eingang1920.jpg') }}); background-repeat: no-repeat; background-size: auto; background-position: top center;">
-    <nav class="navbar navbar-expand-lg navbar-light d-flex align-self-end">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -60,5 +60,6 @@
         </div>
     </div>
 </div>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
