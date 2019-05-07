@@ -13,7 +13,7 @@
 
     </head>
     <body>
-        <div class="container-fluid intro" style="position:relative;background-image: url({{ asset('img/raum_manufaktur_home_eingang1920.jpg') }}); background-repeat: no-repeat; background-size: auto; background-position: center">
+        <div class="container-fluid intro" style="position:relative;background-image: url({{ asset('img/raum_manufaktur_home_eingang1920.jpg') }}); background-repeat: no-repeat; background-size: auto; background-position: top center;">
             <div style="position: absolute; bottom: -50px" class="col-md-6 col-8 offset-2 offset-md-6">
                 <div class="shadow-lg" style="position: absolute; left: -50px; bottom: -50px; background-color: #00c2de; width: 80px; height: 90%"></div>
                 <img src="{{ asset("img/logo_banner.png") }}" class="img-fluid shadow-lg">
