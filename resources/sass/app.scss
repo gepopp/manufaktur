@@ -4,5 +4,30 @@
 // Variables
 @import 'variables';
 
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+h1 {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
