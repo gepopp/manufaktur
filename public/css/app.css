@@ -10666,6 +10666,10 @@ h1 {
   font-size: 1rem;
 }
 
+.intro {
+  height: 50vh;
+}
+
 @media (min-width: 576px) {
   h1 {
     font-size: 1.2rem;
@@ -10675,6 +10679,10 @@ h1 {
 @media (min-width: 768px) {
   h1 {
     font-size: 1.4rem;
+  }
+
+  .intro {
+    height: 100vh;
   }
 }
 

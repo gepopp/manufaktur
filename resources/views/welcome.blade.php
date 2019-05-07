@@ -13,14 +13,13 @@
 
     </head>
     <body>
-        <div class="container-fluid" style="height: 100vh; background-image: url({{ asset('img/raum_manufaktur_home_eingang1920.jpg') }}); background-repeat: no-repeat">
-            <div class="shadow-lg" style="position: absolute; left: 45%; bottom: -50px; background-color: #00c2de; width: 10%; height: 400px"></div>
-            <div style="position: absolute; left: 50%; bottom: -50px">
-                <img src="{{ asset("img/logo_banner.png") }}" class="img-fluid w-75 shadow-lg">
+        <div class="container-fluid intro" style="position:relative;background-image: url({{ asset('img/raum_manufaktur_home_eingang1920.jpg') }}); background-repeat: no-repeat">
+            <div style="position: absolute; bottom: -50px" class="col-md-6 col-8 offset-2 offset-md-6">
+                <div class="shadow-lg" style="position: absolute; left: -50px; bottom: -50px; background-color: #00c2de; width: 80px; height: 90%"></div>
+                <img src="{{ asset("img/logo_banner.png") }}" class="img-fluid shadow-lg">
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="container">
+            <div class="container mt-5">
                 <div class="row">
                     <div class="col-6">
                         <img src="{{ asset('img/cooperation-in-cleaning-offices-PUA3TWQ.jpg') }}" class="img-fluid shadow-lg">
@@ -33,6 +32,5 @@
                     </div>
                 </div>
             </div>
-        </div>
     </body>
 </html>
