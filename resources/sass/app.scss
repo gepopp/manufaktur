@@ -20,6 +20,9 @@ h1 {
   h1 {
     font-size: 1.2rem;
   }
+  .intro{
+    height: 50vh;
+  }
 }
 
 @include media-breakpoint-up(md) {
@@ -34,6 +37,9 @@ h1 {
 @include media-breakpoint-up(lg) {
   h1 {
     font-size: 1.6rem;
+  }
+  .intro{
+    height: 100vh;
   }
 }
 
